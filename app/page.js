@@ -1,10 +1,14 @@
-import ProfileSection from "./components/ProfileSection";
+import Profile from "./components/Profile";
+import TechStacks from "./components/TechStacks";
+import SocialLinks from "./components/SocialLinks";
 
 export default function Home() {
   return (
-    <main className="flex  min-h-screen flex-col bg-[#121212]">
-      <div className="container mx-auto px-12 py-4">
-        <ProfileSection/>
+    <main>
+      <div className="bg-black">
+        <Profile/>
+        <TechStacks />
+        <SocialLinks />
       </div>
     </main>
   );
